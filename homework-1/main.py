@@ -1,13 +1,3 @@
-import sys
-import os
-
-# Get the current directory of the script
-current_dir = os.path.dirname(os.path.abspath(__file__))
-
-# Add the parent directory of the current directory to the Python path
-parent_dir = os.path.abspath(os.path.join(current_dir, os.pardir))
-sys.path.append(parent_dir)
-
 from src.item import Item
 
 if __name__ == "__main__":
